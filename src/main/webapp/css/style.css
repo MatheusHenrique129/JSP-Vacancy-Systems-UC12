@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: arial, verdana, sans-serif;
+}
+/*GLOBAIS*/
+body {
+  background-color: #ecf0f5;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #008000;
+}
+
+button {
+  width: 110px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 19px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 1098px;
+  border: 1px solid #fff;
+  background-color: #00358e;
+}
+
+button :hover {
+  color: #1857c4;
+}
+
+div {
+  align-items: center;
+}
+
+label {
+  width: 300px;
+  font-weight: bold;
+  padding-left: 10px;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.conteudo {
+  width: 1200px;
+  height: inherit;
+}
+
+.centerObject {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  display: flex;
+  height: 80px;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #00358e;
+  border-bottom: 18px solid #ffff00;
+}
+
+#menu {
+  gap: 0.5rem;
+  display: flex;
+  width: 100%;
+  list-style: none;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu a {
+  padding: 0.5rem;
+}
+
+.teste {
+  gap: 1rem;
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.campoInput {
+  width: 120px;
+}
+
+.span {
+  left: 20px;
+  top: 210px;
+  margin: 0px;
+  display: flex;
+  font-size: 1.2em;
+  position: absolute;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  border: 1px solid #000;
+}
+
+.login {
+  display: flex;
+  margin-left: 18px;
+  padding-left: 103px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  top: 520px;
+  left: 200px;
+  margin: 0px;
+  display: flex;
+  font-size: 1em;
+  position: absolute;
+  margin-bottom: 1em;
+  border: 1px solid #000;
+}
+
+.navbar {
+  display: flex;
+  background-color: #000;
+}
+
+.navbar-brand {
+  color: #000;
+  text-decoration: none;
+  background-color: #000;
+}
+
+.navbar-brand:hover {
+  color: #000;
+}
+
+.nav-link {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.nav-item {
+  margin-top: -10px;
+}
+
+.icon {
+  font-size: 33px;
+}
+.icons-list {
+  float: left;
+  color: #abb1b8;
+  font-size: 60px;
+  padding: 25px 10px;
+}
+
+.icon-grip {
+  width: 50px;
+  height: 40px;
+  float: left;
+  color: #c4c7c9;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.icon-delete {
+  font-size: 25px;
+  color: #000;
+}
+
+.icon-delete:hover {
+  color: #b300a4;
+}
+.container-infortions {
+  width: 1250px;
+  height: auto;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 3px;
+  margin-bottom: 103px;
+  background-color: #fff;
+}
+
+.forms {
+  height: auto;
+  overflow: auto;
+}
+
+.tbl-estrutura {
+  width: 98%;
+  height: auto;
+  overflow: auto;
+}
+
+.colunas {
+  width: 100%;
+  height: 20px;
+  background-color: #f5f5f5;
+}
+
+.info,
+.info-white {
+  padding: 15px;
+  text-align: center;
+  border-left: 3px solid #fff;
+}
+
+.info-white {
+  border: none;
+  background-color: #fff;
+}
+
+.campo {
+  width: 95%;
+  max-width: 980px;
+  height: 80px;
+  margin-top: 25px;
+  border: 1px solid #e6e7e9;
+  background-color: #f2f4f7;
+}
+
+.cadastroInformacoes {
+  width: 30%;
+  height: 78px;
+  float: left;
+  font-size: 17px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.cadastroEntradaDeDados {
+  width: 70%;
+  height: 78px;
+  float: right;
+  padding-top: 17px;
+}
+
+.cadastroEntradaDeDados input {
+  width: 50%;
+  height: 40px;
+  float: left;
+  color: #000;
+  padding: 20px;
+  font-size: 17px;
+  margin-left: 40px;
+  border: 1px solid #e1e2e4;
+  background-color: #ffffd7;
+}
+
+.cadastroEntradaDeDados select option {
+  background-color: #ffffff;
+}
+
+.select-container {
+  float: left;
+  width: 46%;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-container input {
+  z-index: 1;
+  height: 30px;
+  cursor: pointer;
+  margin-top: -3px;
+  margin-right: -150px;
+}
+
+.select-container label {
+  text-align: center;
+}
